@@ -280,9 +280,7 @@ function handleChange(event) {
 
 */
 
-
 // Event object contains details about event.
-
 
 // Common properties:
 
@@ -291,14 +289,11 @@ function handleChange(event) {
 // event.target.name
 // event.target.checked
 
-
-
 // -----------------------------------
 // 9. onSubmit Event
 // -----------------------------------
 
 // onSubmit is used with forms.
-
 
 // Example:
 
@@ -319,17 +314,13 @@ function App() {
 
 */
 
-
 // preventDefault() stops page refresh.
-
-
 
 // -----------------------------------
 // 10. preventDefault()
 // -----------------------------------
 
 // By default form refreshes page on submit.
-
 
 // Example:
 
@@ -339,17 +330,13 @@ event.preventDefault()
 
 */
 
-
 // This prevents page reload.
-
-
 
 // -----------------------------------
 // 11. onMouseOver Event
 // -----------------------------------
 
 // Runs when mouse enters element.
-
 
 // Example:
 
@@ -362,13 +349,11 @@ event.preventDefault()
 */
 
 
-
 // -----------------------------------
 // 12. onMouseOut Event
 // -----------------------------------
 
 // Runs when mouse leaves element.
-
 
 // Example:
 
@@ -380,14 +365,11 @@ event.preventDefault()
 
 */
 
-
-
 // -----------------------------------
 // 13. onKeyDown Event
 // -----------------------------------
 
 // Runs when key is pressed.
-
 
 // Example:
 
@@ -399,8 +381,6 @@ event.preventDefault()
 />
 
 */
-
-
 
 // Example with key name:
 
@@ -414,20 +394,16 @@ function handleKey(event) {
 
 */
 
-
 // If Enter key pressed:
 
 // Output:
 // Enter
-
-
 
 // -----------------------------------
 // 14. onFocus Event
 // -----------------------------------
 
 // Runs when input gets focus.
-
 
 // Example:
 
@@ -440,14 +416,11 @@ function handleKey(event) {
 
 */
 
-
-
 // -----------------------------------
 // 15. onBlur Event
 // -----------------------------------
 
 // Runs when input loses focus.
-
 
 // Example:
 
@@ -459,8 +432,6 @@ function handleKey(event) {
 />
 
 */
-
-
 
 // -----------------------------------
 // 16. Multiple Events Together
@@ -479,8 +450,6 @@ function handleKey(event) {
 
 */
 
-
-
 // -----------------------------------
 // 17. Common Beginner Mistakes
 // -----------------------------------
@@ -495,18 +464,13 @@ function handleKey(event) {
 // Wrong:
 
 /*
-
 <button onclick={showMessage}>Click</button>
-
 */
-
 
 // Correct:
 
 /*
-
 <button onClick={showMessage}>Click</button>
-
 */
 
 
@@ -523,20 +487,15 @@ function handleKey(event) {
 // Correct:
 
 /*
-
 <form onSubmit={handleSubmit}>
 </form>
-
 */
-
-
 
 // -----------------------------------
 // 18. Important React Event Naming
 // -----------------------------------
 
 // React uses camelCase event names.
-
 
 // Examples:
 
@@ -549,19 +508,15 @@ function handleKey(event) {
 // onMouseOut
 // onKeyDown
 
-
-
 // HTML uses lowercase:
 
 // onclick
 // onchange
 
-
 // React uses camelCase:
 
 // onClick
 // onChange
-
 
 
 // -----------------------------------
@@ -574,20 +529,17 @@ function handleKey(event) {
 // Events are user actions like click,
 // typing, submit, hover etc.
 
-
 // 2. What is event handler ?
 
 // Answer:
 // Event handler is a function
 // that runs when event happens.
 
-
 // 3. Why do we use preventDefault() ?
 
 // Answer:
 // preventDefault() stops default browser action,
 // like form page refresh.
-
 
 // 4. Difference between onClick={handleClick}
 // and onClick={handleClick()} ?
@@ -596,36 +548,30 @@ function handleKey(event) {
 // handleClick passes function reference.
 // handleClick() runs immediately.
 
-
 // 5. What is event.target.value ?
 
 // Answer:
 // It gives current value of input field.
-
 
 // 6. Why do React events use camelCase ?
 
 // Answer:
 // React event names follow camelCase convention.
 
-
 // 7. What is onChange used for ?
 
 // Answer:
 // onChange is used to detect input value changes.
-
 
 // 8. What is event object ?
 
 // Answer:
 // Event object contains information about event.
 
-
 // 9. What is onSubmit used for ?
 
 // Answer:
 // onSubmit is used when form is submitted.
-
 
 // 10. Can we pass arguments in event handler ?
 
