@@ -2,8 +2,6 @@
 // 03-components.js
 // ==========================
 
-
-
 // -----------------------------------
 // 1. What is a Component ?
 // -----------------------------------
@@ -21,12 +19,10 @@
 // - Button
 // - Search Bar
 
-
 // Example:
 
 // Instead of writing same HTML again and again,
 // we create one component and reuse it multiple times.
-
 
 // Example:
 
@@ -35,8 +31,6 @@
 // - Product 2
 // - Product 3
 // - Product 100
-
-
 
 // -----------------------------------
 // 2. Why Components are Used ?
@@ -51,7 +45,6 @@
 // 5. Easier maintenance
 // 6. Easier team collaboration
 
-
 // Example:
 
 // Instead of writing full website code in App.jsx,
@@ -62,15 +55,12 @@
 // - Product list component
 // - Footer component
 
-
-
 // -----------------------------------
 // 3. Functional Components
 // -----------------------------------
 
 // Functional components are normal JavaScript functions
 // that return JSX.
-
 
 // Example:
 
@@ -82,9 +72,7 @@ function Header() {
 
 */
 
-
 // This component returns a heading.
-
 
 // Example:
 
@@ -96,10 +84,7 @@ function Footer() {
 
 */
 
-
 // React mostly uses functional components nowadays.
-
-
 
 // -----------------------------------
 // 4. Component Naming Rules
@@ -107,7 +92,6 @@ function Footer() {
 
 // Rule 1:
 // Component name must start with capital letter.
-
 
 // Correct:
 
@@ -119,7 +103,6 @@ function Header() {
 
 */
 
-
 // Wrong:
 
 /*
@@ -130,13 +113,10 @@ function header() {
 
 */
 
-
 // React treats lowercase names as normal HTML tags.
-
 
 // Rule 2:
 // Use PascalCase naming style.
-
 
 // Correct:
 
@@ -145,14 +125,11 @@ function header() {
 // LoginForm
 // NavbarMenu
 
-
 // Wrong:
 
 // userCard
 // productlist
 // login_form
-
-
 
 // -----------------------------------
 // 5. How to Use a Component ?
@@ -160,7 +137,6 @@ function header() {
 
 // Step 1:
 // Create component
-
 
 /*
 
@@ -189,10 +165,7 @@ function App() {
 
 
 // Output:
-
 // Welcome to React
-
-
 
 // -----------------------------------
 // 6. Multiple Components in Same File
@@ -221,20 +194,15 @@ function App() {
 
 */
 
-
 // Output:
-
 // Header
 // Footer
-
-
 
 // -----------------------------------
 // 7. Component Inside Component
 // -----------------------------------
 
 // One component can use another component.
-
 
 // Example:
 
@@ -255,12 +223,9 @@ function Home() {
 
 */
 
-
 // Home component is using Navbar component.
 
-
 // This is called nested components.
-
 
 
 // -----------------------------------
@@ -287,14 +252,9 @@ function App() {
 
 */
 
-
 // Output:
-
 // Three buttons will appear.
-
-
 // This shows reusability.
-
 
 
 // -----------------------------------
@@ -353,14 +313,12 @@ export default App
 */
 
 
-
 // -----------------------------------
 // 10. Exporting Components
 // -----------------------------------
 
 // To use a component in another file,
 // we must export it.
-
 
 // Example:
 
@@ -374,19 +332,14 @@ export default Header
 
 */
 
-
 // export default allows component to be imported elsewhere.
 
 
 // Example import:
-
 /*
 
 import Header from "./Header"
-
 */
-
-
 
 // -----------------------------------
 // 11. Importing Components
@@ -410,13 +363,10 @@ function App() {
 
 */
 
-
 // Important:
 
 // Header component name and imported name
 // should generally match for readability.
-
-
 
 // -----------------------------------
 // 12. Difference Between HTML Tags and Components
@@ -434,7 +384,6 @@ function App() {
 
 */
 
-
 // Components start with capital letter.
 
 // Example:
@@ -447,18 +396,14 @@ function App() {
 
 */
 
-
 // React uses this difference to identify
 // whether something is HTML tag or custom component.
-
-
 
 // -----------------------------------
 // 13. Returning JSX from Components
 // -----------------------------------
 
 // Component must return JSX.
-
 
 // Example:
 
@@ -474,7 +419,6 @@ function App() {
 
 */
 
-
 // Wrong:
 
 /*
@@ -484,7 +428,6 @@ function App() {
 }
 
 */
-
 
 // Because return keyword is missing.
 
@@ -502,25 +445,17 @@ function App() {
 // 6. Returning multiple parent elements
 // 7. Using component like normal function call
 
-
 // Wrong:
 
 /*
-
 Header()
-
 */
-
 
 // Correct:
 
 /*
-
 <Header />
-
 */
-
-
 
 // -----------------------------------
 // 15. Interview Questions with Answers
@@ -545,13 +480,11 @@ Header()
 // Functional component is a JavaScript function
 // that returns JSX.
 
-
 // 4. Why should component names start with capital letter ?
 
 // Answer:
 // Because React treats lowercase names as HTML tags.
 // Capital letters help React identify custom components.
-
 
 // 5. What is PascalCase ?
 
@@ -570,13 +503,11 @@ Header()
 // export default is used so that component
 // can be imported into another file.
 
-
 // 7. Difference between component and normal JavaScript function ?
 
 // Answer:
 // A React component returns JSX,
 // while normal JavaScript function can return anything.
-
 
 // 8. Can one component use another component ?
 
@@ -585,13 +516,11 @@ Header()
 // One component can use another component.
 // This is called nested component structure.
 
-
 // 9. Difference between HTML tag and React component ?
 
 // Answer:
 // HTML tags start with lowercase letters.
 // React components start with capital letters.
-
 
 // 10. Why components are called reusable ?
 
