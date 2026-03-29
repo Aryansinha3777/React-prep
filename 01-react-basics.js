@@ -781,14 +781,11 @@ React.createElement("h1", null, "Hello")
 // npm install axios
 // npm install react-router-dom
 
-
 // npm also helps run scripts.
 
 // Example:
-
 // npm run dev
 // npm run build
-
 
 
 // -----------------------------------
@@ -804,11 +801,9 @@ React.createElement("h1", null, "Hello")
 // - Dependencies
 // - Scripts
 
-
 // Example:
 
 /*
-
 {
   "name": "react-prep",
   "version": "1.0.0",
@@ -816,7 +811,6 @@ React.createElement("h1", null, "Hello")
     "dev": "vite"
   }
 }
-
 */
 
 
@@ -840,8 +834,6 @@ React.createElement("h1", null, "Hello")
 
 // That is why we usually do not upload node_modules to GitHub.
 
-
-
 // -----------------------------------
 // 28. What is Dependency ?
 // -----------------------------------
@@ -857,8 +849,6 @@ React.createElement("h1", null, "Hello")
 
 // These packages help add extra features to project.
 
-
-
 // -----------------------------------
 // 29. Important Interview Questions with Answers
 // -----------------------------------
@@ -870,7 +860,6 @@ React.createElement("h1", null, "Hello")
 // Browser converts HTML into a tree-like structure.
 // JavaScript uses DOM to access and change elements.
 
-
 // 2. What is Virtual DOM ?
 
 // Answer:
@@ -878,13 +867,11 @@ React.createElement("h1", null, "Hello")
 // React first updates Virtual DOM, compares changes,
 // then updates only changed parts in real DOM.
 
-
 // 3. Why React is faster ?
 
 // Answer:
 // React is faster because it uses Virtual DOM
 // and updates only necessary parts of UI.
-
 
 // 4. Difference between DOM and Virtual DOM ?
 
@@ -892,24 +879,20 @@ React.createElement("h1", null, "Hello")
 // Real DOM directly changes browser elements and is slower.
 // Virtual DOM is a copy used by React for faster updates.
 
-
 // 5. What is rendering ?
 
 // Answer:
 // Rendering means showing UI on screen.
-
 
 // 6. What is re-rendering ?
 
 // Answer:
 // Re-rendering means updating UI again when data changes.
 
-
 // 7. Is React a library or framework ?
 
 // Answer:
 // React is a library because it mainly handles UI only.
-
 
 // 8. What is Babel ?
 
@@ -917,13 +900,11 @@ React.createElement("h1", null, "Hello")
 // Babel converts JSX and modern JavaScript
 // into browser-understandable JavaScript.
 
-
 // 9. What is npm ?
 
 // Answer:
 // npm is Node Package Manager.
 // It is used to install packages and run scripts.
-
 
 // 10. What is dependency ?
 
