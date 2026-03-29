@@ -2,8 +2,6 @@
 // 01-react-basics.js
 // ==========================
 
-
-
 // -----------------------------------
 // 1. What is React ?
 // -----------------------------------
@@ -25,7 +23,6 @@
 // Backend sends data.
 // React shows that data on screen.
 
-
 // Example:
 
 // Backend data:
@@ -45,8 +42,6 @@ const users = [
 
 // Aryan - 21
 // Rahul - 22
-
-
 
 // -----------------------------------
 // 2. Why React is Used ?
@@ -87,10 +82,8 @@ document.body.appendChild(button)
 
 
 // With React:
-
+  
 // <button>Click Me</button>
-
-
 
 // -----------------------------------
 // 3. What is SPA ?
@@ -110,7 +103,6 @@ document.body.appendChild(button)
 // Entire page does not reload.
 
 // This makes website faster and smoother.
-
 
 // Examples of SPA:
 
@@ -141,15 +133,12 @@ document.body.appendChild(button)
 
 // React only talks to backend APIs and shows data.
 
-
 // Example:
 
 // Backend API:
 // GET /api/users
 
 // React fetches data from that API and shows users on screen.
-
-
 
 // -----------------------------------
 // 5. Create React App vs Vite
@@ -161,13 +150,11 @@ document.body.appendChild(button)
 
 // npx create-react-app my-app
 
-
 // Nowadays developers mostly use Vite because it is faster.
 
 // Command:
 
 // npm create vite@latest
-
 
 // Why Vite is better:
 
@@ -177,49 +164,33 @@ document.body.appendChild(button)
 // - Better performance
 // - Better developer experience
 
-
-
 // -----------------------------------
 // 6. How to Create React Project Using Vite
 // -----------------------------------
 
 // Step 1:
-
 // npm create vite@latest
 
-
 // Step 2:
-
 // It will ask some questions:
 
 // Project name: react-prep-example
 // Framework: React
 // Variant: JavaScript
 
-
 // Step 3:
-
 // Move inside project folder:
-
 // cd react-prep-example
 
-
 // Step 4:
-
 // Install packages:
-
 // npm install
 
-
 // Step 5:
-
 // Start frontend server:
-
 // npm run dev
 
-
 // Usually React app runs on:
-
 // http://localhost:5173
 
 
@@ -243,7 +214,6 @@ react-prep-example/
 
 */
 
-
 // Important folders/files:
 
 // 1. src
@@ -262,7 +232,6 @@ react-prep-example/
 // Vite configuration file.
 
 
-
 // -----------------------------------
 // 8. Important Files Inside src
 // -----------------------------------
@@ -278,10 +247,8 @@ src/
 
 */
 
-
 // main.jsx = Entry point
 // App.jsx = Main component
-
 
 
 // -----------------------------------
@@ -289,7 +256,6 @@ src/
 // -----------------------------------
 
 // main.jsx starts React application.
-
 
 // Example:
 
@@ -329,7 +295,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 
 // Example:
-
 /*
 
 function App() {
@@ -341,7 +306,6 @@ function App() {
 export default App
 
 */
-
 
 
 // -----------------------------------
@@ -375,8 +339,6 @@ export default App
 // 4. export default App is needed
 // 5. React components return UI
 
-
-
 // -----------------------------------
 // 12. Common Beginner Mistakes
 // -----------------------------------
@@ -393,9 +355,7 @@ function App() {
 
 */
 
-
 // Correct:
-
 /*
 
 function App() {
@@ -424,7 +384,6 @@ return (
 // Correct:
 
 /*
-
 return (
   <div>
     <h1>Hello</h1>
@@ -434,22 +393,17 @@ return (
 
 */
 
-
 // 3. Using lowercase component name
-
 // Wrong:
 
 /*
-
 function app() {
   return <h1>Hello</h1>
 }
 
 */
 
-
 // Correct:
-
 /*
 
 function App() {
@@ -457,8 +411,6 @@ function App() {
 }
 
 */
-
-
 
 // -----------------------------------
 // 13. Interview Questions
@@ -487,7 +439,6 @@ function App() {
 // It helps developers create reusable UI components like buttons,
 // forms, cards, navbars, etc.
 
-
 // 2. Why React is used ?
 
 // Answer:
@@ -495,14 +446,12 @@ function App() {
 // It provides reusable components, faster UI updates,
 // cleaner code, better project structure, and easier state handling.
 
-
 // 3. What is SPA ?
 
 // Answer:
 // SPA means Single Page Application.
 // In SPA, only required content changes without reloading the full page.
 // This makes applications faster and smoother.
-
 
 // 4. Difference between React and JavaScript ?
 
@@ -518,7 +467,6 @@ function App() {
 // Answer:
 // Vite is preferred because it is faster than Create React App.
 // It has faster startup, faster hot reload, and better performance.
-
 
 // 6. What is App.jsx ?
 
@@ -550,7 +498,6 @@ function App() {
 
 */
 
-
 // 9. Difference between Create React App and Vite ?
 
 // Answer:
@@ -581,7 +528,6 @@ function App() {
 
 // These components can be reused multiple times.
 
-
 // -----------------------------------
 // 14. What is DOM ?
 // -----------------------------------
@@ -600,7 +546,6 @@ function App() {
 </body>
 
 */
-
 
 // Browser internally creates DOM tree:
 
@@ -621,7 +566,6 @@ document.getElementById("heading")
 document.querySelector(".box")
 
 
-
 // -----------------------------------
 // 15. What is Virtual DOM ?
 // -----------------------------------
@@ -631,7 +575,6 @@ document.querySelector(".box")
 // React first updates Virtual DOM.
 // Then React compares old Virtual DOM and new Virtual DOM.
 // Finally React updates only changed parts in real DOM.
-
 
 // Example:
 
@@ -645,13 +588,8 @@ document.querySelector(".box")
   name: "Rahul"
 }
 
-
 // React updates only changed text instead of reloading full page.
-
-
 // This makes React faster.
-
-
 
 // -----------------------------------
 // 16. Difference Between DOM and Virtual DOM
@@ -669,8 +607,6 @@ document.querySelector(".box")
 // - Only changed part updates
 // - Better performance
 
-
-
 // -----------------------------------
 // 17. Why React is Faster
 // -----------------------------------
@@ -681,8 +617,6 @@ document.querySelector(".box")
 // 2. Updates only changed parts
 // 3. Avoids unnecessary DOM operations
 // 4. Reuses components
-
-
 
 // -----------------------------------
 // 18. What is Component-Based Architecture ?
@@ -706,8 +640,6 @@ document.querySelector(".box")
 // - Cleaner code
 // - Easier debugging
 
-
-
 // -----------------------------------
 // 19. What is Rendering ?
 // -----------------------------------
@@ -724,10 +656,7 @@ function App() {
 
 */
 
-
 // React renders "Hello" on screen.
-
-
 
 // -----------------------------------
 // 20. What is Re-rendering ?
@@ -736,16 +665,13 @@ function App() {
 // Re-rendering means React updates UI again when data changes.
 
 // Example:
-
 /*
 
 const [count, setCount] = useState(0)
 
 */
 
-
 // When count changes, component renders again with updated value.
-
 
 // Example:
 
@@ -756,8 +682,6 @@ const [count, setCount] = useState(0)
 // Count = 1
 
 // React updates only changed text.
-
-
 
 // -----------------------------------
 // 21. Difference Between Library and Framework
@@ -779,7 +703,6 @@ const [count, setCount] = useState(0)
 // developers choose their own libraries.
 
 
-
 // -----------------------------------
 // 22. Why React Uses JSX
 // -----------------------------------
@@ -787,29 +710,19 @@ const [count, setCount] = useState(0)
 // JSX makes code easier to read and write.
 
 // Without JSX:
-
 /*
-
 React.createElement("h1", null, "Hello")
-
 */
 
-
 // With JSX:
-
 /*
-
 <h1>Hello</h1>
-
 */
 
 
 // JSX looks similar to HTML, so frontend code becomes cleaner.
 
-
 // React eventually converts JSX into normal JavaScript.
-
-
 
 // -----------------------------------
 // 23. What is Babel ?
@@ -819,17 +732,13 @@ React.createElement("h1", null, "Hello")
 
 // It converts modern JavaScript and JSX into browser-understandable JavaScript.
 
-
 // Example:
 
 // JSX:
 
 /*
-
 <h1>Hello</h1>
-
 */
-
 
 // Babel converts it into:
 
@@ -838,8 +747,6 @@ React.createElement("h1", null, "Hello")
 React.createElement("h1", null, "Hello")
 
 */
-
-
 
 // -----------------------------------
 // 24. What is Bundler ?
@@ -854,13 +761,11 @@ React.createElement("h1", null, "Hello")
 
 // Bundler helps improve performance.
 
-
 // Examples of bundlers:
 
 // - Vite
 // - Webpack
 // - Parcel
-
 
 
 // -----------------------------------
