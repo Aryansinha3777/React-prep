@@ -2,15 +2,12 @@
 // 11-routing.js
 // ==========================
 
-
-
 // -----------------------------------
 // 1. What is Routing ?
 // -----------------------------------
 
 // Routing means showing different pages
 // without refreshing the browser.
-
 
 // Example:
 
@@ -19,9 +16,7 @@
 // /contact
 // /profile
 
-
 // In React, routing is usually done using react-router-dom.
-
 
 // Install:
 
@@ -30,8 +25,6 @@
 npm install react-router-dom
 
 */
-
-
 
 // -----------------------------------
 // 2. Why Routing is Needed ?
@@ -43,13 +36,10 @@ npm install react-router-dom
 // In React SPA,
 // page changes without full refresh.
 
-
 // Example:
 
 // Clicking About page does not reload browser.
 // React only changes component on screen.
-
-
 
 // -----------------------------------
 // 3. Basic Setup
@@ -70,7 +60,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 )
 
 */
-
 
 // BrowserRouter should wrap App.
 
