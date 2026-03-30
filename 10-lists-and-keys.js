@@ -2,15 +2,12 @@
 // 10-lists-and-keys.js
 // ==========================
 
-
-
 // -----------------------------------
 // 1. What are Lists in React ?
 // -----------------------------------
 
 // Lists are used when we want to show
 // multiple similar items on screen.
-
 
 // Examples:
 
@@ -20,17 +17,13 @@
 // - List of tasks
 // - List of movies
 
-
-
 // -----------------------------------
 // 2. map() in JavaScript
 // -----------------------------------
 
 // In React, lists are usually rendered using map().
 
-
 // map() creates a new array.
-
 
 // Example:
 
@@ -47,8 +40,6 @@ console.log(doubled)
 // [2, 4, 6]
 
 */
-
-
 
 // -----------------------------------
 // 3. Rendering List in React
@@ -72,12 +63,8 @@ function App() {
 
 */
 
-
-
 // React loops through array
 // and renders one h1 for each item.
-
-
 
 // -----------------------------------
 // 4. Why Key is Needed ?
@@ -88,10 +75,7 @@ function App() {
 // Key helps React identify
 // which item changed, removed or added.
 
-
 // Without key, React gives warning.
-
-
 
 // -----------------------------------
 // 5. Basic Key Example
@@ -115,13 +99,9 @@ function App() {
 
 */
 
-
-
 // key={index} removes warning.
 
 // But using index as key is not best in all cases.
-
-
 
 // -----------------------------------
 // 6. Better Key Example
@@ -129,7 +109,6 @@ function App() {
 
 // If data has unique id,
 // always use id as key.
-
 
 // Example:
 
@@ -153,11 +132,7 @@ function App() {
 
 */
 
-
-
 // user.id is better than index.
-
-
 
 // -----------------------------------
 // 7. Why Index is Sometimes Bad ?
@@ -177,7 +152,6 @@ function App() {
 
 */
 
-
 // If first item is removed:
 
 /*
@@ -188,7 +162,6 @@ function App() {
 ]
 
 */
-
 
 // Index changes:
 
@@ -201,17 +174,13 @@ function App() {
 // B -> 0
 // C -> 1
 
-
 // React may think items changed incorrectly.
-
 
 // Use index only if:
 
 // 1. List never changes
 // 2. Items never reorder
 // 3. Items never delete
-
-
 
 // -----------------------------------
 // 8. Rendering Objects in List
@@ -241,8 +210,6 @@ function App() {
 
 */
 
-
-
 // -----------------------------------
 // 9. Filtering Before Mapping
 // -----------------------------------
@@ -270,12 +237,8 @@ function App() {
 
 */
 
-
-
 // First filter runs.
 // Then map runs.
-
-
 
 // -----------------------------------
 // 10. Empty List Example
@@ -300,8 +263,6 @@ function App() {
 }
 
 */
-
-
 
 // -----------------------------------
 // 11. Nested map Example
@@ -342,8 +303,6 @@ function App() {
 
 */
 
-
-
 // -----------------------------------
 // 12. Common Beginner Mistakes
 // -----------------------------------
@@ -354,7 +313,6 @@ function App() {
 // 4. Forgetting return inside map
 // 5. Using curly braces without return
 
-
 // Wrong:
 
 /*
@@ -364,7 +322,6 @@ users.map((user) => {
 })
 
 */
-
 
 // Correct:
 
@@ -387,8 +344,6 @@ users.map((user) => (
 
 */
 
-
-
 // -----------------------------------
 // 13. Interview Questions with Answers
 // -----------------------------------
@@ -398,42 +353,35 @@ users.map((user) => (
 // Answer:
 // To render multiple items from array.
 
-
 // 2. What is key in React ?
 
 // Answer:
 // Key is unique identifier for list items.
-
 
 // 3. Why are keys important ?
 
 // Answer:
 // Keys help React track items efficiently.
 
-
 // 4. Why is id better than index as key ?
 
 // Answer:
 // Because id stays stable even if list changes.
-
 
 // 5. When can index be used as key ?
 
 // Answer:
 // When list never changes or reorders.
 
-
 // 6. What happens if key is missing ?
 
 // Answer:
 // React gives warning in console.
 
-
 // 7. Can we use map() on array of objects ?
 
 // Answer:
 // Yes.
-
 
 // 8. Can filter and map be used together ?
 
@@ -441,13 +389,10 @@ users.map((user) => (
 // Yes.
 // Usually filter runs first, then map.
 
-
 // 9. What is nested map ?
 
 // Answer:
 // Mapping inside another map.
-
-
 // 10. What is common mistake inside map ?
 
 // Answer:
