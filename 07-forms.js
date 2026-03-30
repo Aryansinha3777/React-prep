@@ -188,15 +188,12 @@ function App() {
 
 */
 
-
-
 // -----------------------------------
 // 7. Using Single Object State for Form
 // -----------------------------------
 
 // Instead of multiple useState,
 // we can store all form values in one object.
-
 
 // Example:
 
@@ -208,7 +205,6 @@ const [formData, setFormData] = useState({
 })
 
 */
-
 
 // Updating object:
 
@@ -222,8 +218,6 @@ onChange={(event) =>
 }
 
 */
-
-
 
 // -----------------------------------
 // 8. Textarea Example
@@ -338,8 +332,6 @@ setFormData({
 
 */
 
-
-
 // -----------------------------------
 // 13. Basic Validation Example
 // -----------------------------------
@@ -415,7 +407,6 @@ setFormData({
 // Uncontrolled Component:
 // Input value managed by browser itself.
 
-
 // Example:
 
 /*
@@ -436,30 +427,25 @@ setFormData({
 // Controlled component is an input
 // whose value is controlled by React state.
 
-
 // 2. Why are controlled components preferred ?
 
 // Answer:
 // Because React always knows current input value.
-
 
 // 3. Why do we use preventDefault() in form ?
 
 // Answer:
 // To stop browser page refresh on form submit.
 
-
 // 4. What is event.target.value ?
 
 // Answer:
 // It gives current value of input field.
 
-
 // 5. What is event.target.checked ?
 
 // Answer:
 // It gives true or false for checkbox.
-
 
 // 6. Can multiple form fields be stored in one object ?
 
@@ -467,25 +453,21 @@ setFormData({
 // Yes.
 // React forms can use object state.
 
-
 // 7. Difference between controlled and uncontrolled component ?
 
 // Answer:
 // Controlled uses React state.
 // Uncontrolled uses browser-managed value.
 
-
 // 8. Why is form validation important ?
 
 // Answer:
 // Validation ensures user enters correct data.
 
-
 // 9. Why do radio buttons use checked ?
 
 // Answer:
 // Because checked decides which radio button is selected.
-
 
 // 10. What is single source of truth in forms ?
 
